@@ -84,7 +84,7 @@ Response:
   Github for versioning
   
 #schema
-  create_table "microposts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "microposts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t| 
     t.string "content"
     t.string "string"
     t.bigint "user_id"
