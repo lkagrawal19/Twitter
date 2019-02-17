@@ -1,0 +1,19 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  username: root
+  password: root
+  host: 127.0.0.1
+  port: 3306
+
+development:
+  <<: *default
+  database: twitter_dev
+
+test:
+  <<: *default
+  database: twitter_test
+
+production:
+  <<: *default
+  database: twitter_production
