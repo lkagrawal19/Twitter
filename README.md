@@ -84,36 +84,9 @@ Response:
   Github for versioning
   
 #schema
-  create_table "microposts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t| 
-    t.string "content"
-    t.string "string"
-    t.bigint "user_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_microposts_on_user_id"
-  end
-
-  create_table "relationships", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.integer "follower_id"
-    t.integer "followed_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string "username", null: false
-    t.string "email", null: false
-    t.string "password_digest"
-    t.string "role", default: "user", null: false
-    t.datetime "last_login"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["email"], name: "index_users_on_email"
-  end
-
-  add_foreign_key "microposts", "users"
+  Please find file db/schema.rb
   
-  # API to return the tweets on dashboard
+# API to return the tweets on dashboard
     endpoint: /dashboard
     
     Headers:
