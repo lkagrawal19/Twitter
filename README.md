@@ -80,7 +80,7 @@ Response:
   Framework: ROR 5.0.13<br/>
   Database: Mysql<br/>
   API Authentication: JWT<br/>
-  Tools: SequelPro<br/>
+  Tools: SequelPro, SublimeText<br/>
   Github for versioning<br/> 
   
 #schema<br/>
