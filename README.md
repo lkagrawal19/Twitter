@@ -77,14 +77,14 @@ Response:
  *** not sorted for now, need to do it, the schema need to be changed for this.
 
 # Technologies used . 
-  Framework: ROR 5.0.13 . 
-  Database: Mysql . 
-  API Authentication: JWT . 
-  Tools: SequelPro . 
-  Github for versioning . 
+  Framework: ROR 5.0.13<br/>
+  Database: Mysql<br/>
+  API Authentication: JWT<br/>
+  Tools: SequelPro<br/>
+  Github for versioning<br/> 
   
-#schema . 
-  Please find file db/schema.rb
+#schema<br/>
+  Please find file db/schema.rb<br/>
   
 # API to return the tweets on dashboard
     endpoint: /dashboard
